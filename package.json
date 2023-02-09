@@ -6,14 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/app.js",
-		"seedDb": "node ./seedDb/seedDb.js"
-   
+    "seedDb": "node ./src/seedSalsaDb.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    
     "nodemon": "^2.0.20"
   },
   "dependencies": {
@@ -23,6 +21,6 @@
     "axios": "^1.2.2",
     "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
-    "mongoose": "^6.9.0"
+    "mongoose": "^6.9.1"
   }
 }
